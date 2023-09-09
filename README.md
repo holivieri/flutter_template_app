@@ -69,6 +69,11 @@ AppLocalizations.of(context)!.{your tag}
 ```
 
 
+## Support
+If you want to add features to this project just create a Pull Request. Please review that you don't have any warning before creating the PR
+
+I work as a contractor in Canada, you can [contact me](hernan.olivieri@gmail.com) if you need any software development or training in your company.
+
 
 
 
