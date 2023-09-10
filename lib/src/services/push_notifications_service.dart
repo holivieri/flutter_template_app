@@ -23,13 +23,13 @@ class PushNotificationsService {
     //https://stackoverflow.com/questions/63799227/fcm-gettoken-failed-to-register-a-serviceworker-for-scope-error-flutter-web/63800226#63800226
 
     if (kIsWeb) {
+      //TODO init Firebase
       await Firebase.initializeApp(
         options: const FirebaseOptions(
-          apiKey:
-              'AAAA39tq9zc:APA91bHggjSv7Q_rDzTavAg8aPeIa4KZBTydbYYO190PS2gvq49DWEOmERSRzHBuUBf3gcHkIu9QHP8phG5mJ3hUTFo-WrcPjhS9jDPl5-EAMPVLkGaIjlKCOO9YxXQ06IKwicdb3IEg',
-          appId: '1:961458927415:android:df3456b770041afaf44cb2',
-          messagingSenderId: '961458927415',
-          projectId: 'undercover-333401',
+          apiKey: '',
+          appId: '',
+          messagingSenderId: '',
+          projectId: '',
         ),
       );
     } else {
