@@ -5,8 +5,10 @@ A new Template to use in any new Flutter project.
 ## Getting Started
 Just clone the repository, open it in Visual Studio Code and run 
 ```
-flutter pub get
+flutter pub get 
 flutter gen-l10n
+
+flutter pub run build_runner build
 
 ```
 
