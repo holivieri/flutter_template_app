@@ -70,6 +70,15 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 AppLocalizations.of(context)!.{your tag}
 ```
 
+## How to test your app
+We are using Mockito to mock the objects that you don't need to test.
+For running the tests you will need to run:
+
+```
+flutter pub run build_runner build //this will create the mock files
+
+flutter test --coverage
+```
 
 ## Support
 If you want to add features to this project just create a Pull Request. Please check that you don't have any warning before creating the PR
