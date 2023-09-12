@@ -95,7 +95,8 @@ class _MyAppState extends State<MyApp> with RouterMixin {
         // .subtract(const Duration(days: 30))
         .isBefore(DateTime.now().toUtc())) {
       //token is expired
-      return Routes.loginRoute;
+      //return Routes.loginRoute;
+      return Routes.homeRoute;
     } else {
       return Routes.homeRoute;
     }

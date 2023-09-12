@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:provider/provider.dart';
+import 'package:template_app/src/pages/recommendations_page.dart';
 
 import '../models/user_preferences.dart';
 import '../themes/theme_provider.dart';
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
 
   final tabs = [
     const HomeScreen(),
-    // const RecommendationsPage(),
+    const RecommendationsPage(),
     const NotificationsPage(),
     const UserPreferencesPage(),
   ];
