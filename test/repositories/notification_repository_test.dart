@@ -8,7 +8,7 @@ import 'package:template_app/src/services/notifications_service.dart';
 import '../mocks/firebase_analytics_mock.dart';
 import '../mocks/http_verbs_mock.dart';
 import '../mocks/mock_entities.dart';
-import '../mocks/mocks.dart';
+import '../mocks/mocks.mocks.dart';
 
 void main() {
   group('Notifications Tests', () {

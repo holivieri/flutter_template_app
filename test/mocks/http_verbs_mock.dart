@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:http/http.dart';
-import 'package:http/testing.dart';
 import 'package:mockito/mockito.dart';
+import 'mocks.dart';
 
 void mockGetList({
   required MockClient httpmockClient,

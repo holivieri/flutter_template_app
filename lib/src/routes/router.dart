@@ -53,14 +53,16 @@ mixin RouterMixin on State<MyApp> {
             final tokenExpirationDate = UserPreferences().tokenExpirationDate;
 
             if (token.isEmpty || tokenExpirationDate.isEmpty) {
-              return Routes.loginRoute;
+              // return Routes.loginRoute;
+              return Routes.homeRoute;
             }
             if (DateTime.parse(UserPreferences().tokenExpirationDate)
                 .toUtc()
                 // .subtract(const Duration(days: 30))
                 .isBefore(DateTime.now().toUtc())) {
               //token is expired
-              return Routes.loginRoute;
+              // return Routes.loginRoute;
+              return Routes.homeRoute;
             } else {
               return Routes.homeRoute;
             }
