@@ -2,6 +2,20 @@
 
 A new Template to use in any new Flutter project.
 
+- Web/Android/IOS working versions
+- Multi language
+- Dark and Light mode
+- Login Screen
+- Google and Facebook login enabled
+- Cool architecture (Bloc, Repository and Services)
+- Push Notifications with _firebase_
+- Lint Configuration
+- Updated packages every week
+- Unit tests
+- Tests coverage
+
+
+
 ## Getting Started
 Just clone the repository, open it in Visual Studio Code and run 
 ```
@@ -71,7 +85,7 @@ AppLocalizations.of(context)!.{your tag}
 ```
 
 ## How to test your app
-We are using Mockito to mock the objects that you don't need to test.
+We are using _Mockito_ to mock the objects that you don't need to test.
 For running the tests you will need to run:
 
 ```
@@ -81,7 +95,7 @@ flutter test --coverage
 ```
 
 ## DevOps
-I added an Azure Build Pipeline yaml file for Android and IOS. 
+I added an _Azure Build Pipeline yaml file_ for **Android** and **IOS**. 
 
 ## Support
 If you want to add features to this project just create a Pull Request. Please check that you don't have any warning before creating the PR
