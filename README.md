@@ -80,6 +80,9 @@ flutter pub run build_runner build //this will create the mock files
 flutter test --coverage
 ```
 
+## DevOps
+I added an Azure Build Pipeline yaml file for Android and IOS. 
+
 ## Support
 If you want to add features to this project just create a Pull Request. Please check that you don't have any warning before creating the PR
 
