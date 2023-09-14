@@ -13,7 +13,7 @@ class NotificationsService {
   Future<List<Notification>> getMyNotifications() async {
     final apiResponse = await _client.get(
       Uri.parse('$apiUrl/User/GetNotifications'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode != 200) {
@@ -37,7 +37,7 @@ class NotificationsService {
   Future<Notification?> getNotification(String notificationId) async {
     final apiResponse = await _client.get(
       Uri.parse('$apiUrl/User/GetNotification/$notificationId'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode != 200) {
@@ -55,7 +55,7 @@ class NotificationsService {
     final apiResponse = await _client.post(
       Uri.parse(
           '$apiUrl/User/DeleteNotification?notificationId=$notificationId'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode != 200) {

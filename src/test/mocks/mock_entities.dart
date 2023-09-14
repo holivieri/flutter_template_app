@@ -57,7 +57,7 @@ final List<Map<String, dynamic>> places = [
   {
     'id': 'bd0f8686-2ac5-44e4-b1d8-86ec36be016c',
     'name': 'Arena Rock',
-    'description': 'Un lugar de encuentro en el mundo del under.',
+    'description': 'Un lugar de encuentro en el mundo del jazz.',
     'phoneNumber': '4544-7744',
     'createdDate': '2023-02-10T13:21:44.4736761Z',
     'totalCapacity': 45,
@@ -278,7 +278,7 @@ final List<Map<String, dynamic>> concertsList = [
     'place': {
       'id': 'bd0f8686-2ac5-44e4-b1d8-86ec36be016c',
       'name': 'Arena Rock',
-      'description': 'Un lugar de encuentro en el mundo del under.',
+      'description': 'Un lugar de encuentro en el mundo del blues.',
       'phoneNumber': '4544-7744',
       'createdDate': '2023-02-10T13:21:44.4736761Z',
       'totalCapacity': 45,

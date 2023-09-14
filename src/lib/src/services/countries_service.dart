@@ -13,7 +13,7 @@ class CountriesService {
   Future<List<Country>> getAllCountries() async {
     final apiResponse = await _client.get(
       Uri.parse('$apiUrl/Country'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode != 200) {

@@ -44,7 +44,7 @@ class SocialSignInService {
     final apiResponse = await Client().post(
       Uri.parse(
           '$apiUrl/Authenticate/auth/facebook?facebookTokenId=$token&platform=$platform&deviceToken=$deviceToken'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode == 200) {
@@ -81,7 +81,7 @@ class SocialSignInService {
       final apiResponse = await Client().post(
         Uri.parse(
             '$apiUrl/Authenticate/auth/google?googleTokenId=$googleToken&platform=$platform&deviceToken=$deviceToken'),
-        headers: returnUndercoverHeaders(),
+        headers: returnHttpHeaders(),
       );
 
       if (apiResponse.statusCode == 500) {

@@ -46,7 +46,7 @@ class UserService {
   ) async {
     final apiResponse = await _client.post(
       Uri.parse('$apiUrl/User/CreateProfile'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
       body: jsonEncode(userProfile),
     );
 
@@ -67,7 +67,7 @@ class UserService {
 
     final apiResponse = await _client.post(
       Uri.parse('$apiUrl/Authenticate/Login'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
       body: json.encode({
         'email': userName,
         'password': password,
@@ -100,7 +100,7 @@ class UserService {
   Future<bool> followAnArtist(String artistId) async {
     final apiResponse = await _client.post(
       Uri.parse('$apiUrl/User/FollowAnArtist?artistId=$artistId'),
-      headers: returnUndercoverHeaders(),
+      headers: returnHttpHeaders(),
     );
 
     if (apiResponse.statusCode != 200) {

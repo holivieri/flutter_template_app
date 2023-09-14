@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_gen/gen_l10n/app_localizations.dart';
-import 'package:http/http.dart';
 
 class RecommendationsPage extends StatefulWidget {
   const RecommendationsPage({super.key});
@@ -16,9 +14,11 @@ class _RecommendationsPageState extends State<RecommendationsPage> {
   }
 
   Widget getSomeData() {
-    return const SizedBox(
-      height: 400,
-      child: Text('Add some value'),
+    return const Center(
+      child: SizedBox(
+        height: 400,
+        child: Text('Add some value'),
+      ),
     );
   }
 }

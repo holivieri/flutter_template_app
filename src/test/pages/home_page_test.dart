@@ -22,9 +22,7 @@ void main() {
 
       httpClient = MockClient();
 
-      when(httpClient.get(
-              Uri.parse(
-                  'https://undercoverrg.azurewebsites.net/api/V1/Concert/GetNextConcerts'),
+      when(httpClient.get(Uri.parse('test url here'),
               headers: anyNamed('headers')))
           .thenAnswer((_) {
         final mockResponse = Response(
