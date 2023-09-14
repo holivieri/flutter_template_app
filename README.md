@@ -10,6 +10,8 @@ A new Template to use in any new Flutter project.
 - Push Notifications
 - Lint Configuration
 - Updated packages every week
+- Unit tests
+- Tests coverage
 
 
 
