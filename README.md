@@ -2,6 +2,17 @@
 
 A new Template to use in any new Flutter project.
 
+- Multi language
+- Dark and Light mode
+- Login Screen
+- Google and Facebook login enable
+- Cool architecture (Bloc, Repository and Services)
+- Push Notifications
+- Lint Configuration
+- Updated packages every week
+
+
+
 ## Getting Started
 Just clone the repository, open it in Visual Studio Code and run 
 ```
