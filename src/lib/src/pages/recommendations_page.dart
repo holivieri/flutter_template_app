@@ -14,9 +14,11 @@ class _RecommendationsPageState extends State<RecommendationsPage> {
   }
 
   Widget getSomeData() {
-    return const SizedBox(
-      height: 400,
-      child: Text('Add some value'),
+    return const Center(
+      child: SizedBox(
+        height: 400,
+        child: Text('Add some value'),
+      ),
     );
   }
 }
