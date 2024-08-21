@@ -49,7 +49,7 @@ class MyThemes {
     ),
     iconTheme: const IconThemeData(color: Colors.black), //greenButtonColor),
     buttonTheme: const ButtonThemeData(buttonColor: greenButtonColor),
-    colorScheme: const ColorScheme.dark().copyWith(background: darkBackground),
+    colorScheme: const ColorScheme.dark().copyWith(surface: darkBackground),
   );
 
   static final lightTheme = ThemeData(
@@ -64,6 +64,6 @@ class MyThemes {
     iconTheme: const IconThemeData(color: Colors.red),
     buttonTheme: const ButtonThemeData(buttonColor: greenButtonColor),
     colorScheme:
-        const ColorScheme.light().copyWith(background: Colors.pink.shade200),
+        const ColorScheme.light().copyWith(surface: Colors.pink.shade200),
   );
 }
