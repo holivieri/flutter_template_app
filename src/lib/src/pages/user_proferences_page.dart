@@ -9,7 +9,7 @@ import '../utils/app_colors.dart';
 import '../widgets/language_selector.dart';
 
 class UserPreferencesPage extends StatefulWidget {
-  const UserPreferencesPage({Key? key}) : super(key: key);
+  const UserPreferencesPage({super.key});
 
   @override
   State<UserPreferencesPage> createState() => _UserPreferencesPageState();

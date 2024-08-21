@@ -27,7 +27,7 @@ class SocialSignInService {
         //debugPrint(accessToken.token);
         //debugPrint('=========================================');
 
-        return accessToken.token;
+        return accessToken.tokenString;
       } else {
         return 'error';
       }

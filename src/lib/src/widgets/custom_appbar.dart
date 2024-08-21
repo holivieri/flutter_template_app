@@ -6,10 +6,9 @@ import '../models/user_preferences.dart';
 import '../routes/routes.dart';
 
 class CustomAppbar extends StatefulWidget implements PreferredSizeWidget {
-  const CustomAppbar({Key? key})
+  const CustomAppbar({super.key})
       // ignore: avoid_field_initializers_in_const_classes
-      : preferredSize = const Size.fromHeight(kToolbarHeight),
-        super(key: key);
+      : preferredSize = const Size.fromHeight(kToolbarHeight);
 
   @override
   final Size preferredSize;

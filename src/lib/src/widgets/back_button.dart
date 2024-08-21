@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class BackArrowButton extends StatefulWidget {
-  const BackArrowButton({Key? key}) : super(key: key);
+  const BackArrowButton({super.key});
 
   @override
   State<BackArrowButton> createState() => _BackArrowButtonState();

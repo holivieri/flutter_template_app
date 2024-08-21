@@ -14,7 +14,7 @@ import '../utils/colors.dart';
 import '../widgets/section_header.dart';
 
 class NotificationsPage extends StatefulWidget {
-  const NotificationsPage({Key? key}) : super(key: key);
+  const NotificationsPage({super.key});
 
   @override
   State<NotificationsPage> createState() => _NotificationsPageState();
