@@ -10,8 +10,8 @@ import '../widgets/back_button.dart';
 class NotificationDetailPage extends StatefulWidget {
   const NotificationDetailPage({
     required this.notificationId,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
   final String notificationId;
 
   @override

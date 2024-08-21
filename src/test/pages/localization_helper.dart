@@ -18,8 +18,8 @@ import '../mocks/mocks.mocks.dart';
 class LocalizationsInj extends StatelessWidget {
   const LocalizationsInj({
     required this.child,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
   final Widget child;
 
   @override

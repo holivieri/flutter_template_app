@@ -15,8 +15,8 @@ import 'themes/theme_provider.dart';
 class MyApp extends StatefulWidget {
   const MyApp({
     required this.settingsController,
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   final SettingsController settingsController;
 

@@ -8,10 +8,10 @@ import '../utils/font.dart';
 class CircleAvatarWidget extends StatelessWidget {
   const CircleAvatarWidget({
     required this.radiusSize,
-    Key? key,
+    super.key,
     this.pictureUrl,
     this.initials,
-  }) : super(key: key);
+  });
   final String? pictureUrl;
   final String? initials;
   final double radiusSize;
